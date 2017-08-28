@@ -37,7 +37,9 @@ module.exports = {
         'no-var': WARN,
 
         // React
-        'react/sort-comp': WARN
+        'react/sort-comp': WARN,
+        'react/prop-types': OFF 
+
 
         // JSDoc
         // It would be nice to enforce documentation eventually
