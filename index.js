@@ -3,6 +3,10 @@ const [OFF, WARN, ERR] = [0, 1, 2]
 module.exports = {
     extends: ['standard', 'plugin:react/recommended'],
     plugins: ['react'],
+    
+    parserOptions: {
+        ecmaVersion: 2017
+    },
 
     rules: {
         // Overrides from 'standard' that we may want to enable later:
