@@ -26,7 +26,7 @@ module.exports = {
         'max-len': [WARN, 100, 4, {'ignoreUrls': true, 'ignoreComments': true}],
         'no-warning-comments': WARN,
         'require-yield': OFF,       // Doesn't play nice with simple Koa 1.x routes
-        'spaced-comment': ['error', 'always', { 'exceptions': [':'] }],     // For flow comments like /*: foo */
+        'spaced-comment': OFF,
 
         // Further ES6 enhancements
         // Any rules here set to OFF/WARN are things to turn on eventually
